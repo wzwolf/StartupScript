@@ -1,0 +1,13 @@
+[unit]
+Description=startupscript
+# replace startup with script name of your choice
+After=default.target
+
+[Service]
+ExecStart=
+# replace/path/to with path to startup script
+# replace startupscript with script name of your choice
+
+
+[Install]
+WantedBy=default.target
